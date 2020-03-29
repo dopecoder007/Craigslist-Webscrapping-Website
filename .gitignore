@@ -1,1 +1,4 @@
 /craigslist/__pycache__/
+/.vscode
+/craigslist_env
+db.sqlite3
