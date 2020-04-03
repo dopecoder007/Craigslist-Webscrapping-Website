@@ -26,7 +26,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'fw)v*^)p4(vi@$2qvu*-r85($r0a*-pt6^-xc3(y)o&ao5skgh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['craigslist-webscrapper.herokuapp.com','127.0.0.1']
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
