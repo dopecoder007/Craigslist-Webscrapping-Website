@@ -4,7 +4,8 @@ import requests
 from requests.compat import quote_plus
 from . import models
 
-BASE_CRAIGSLIST_URL ='https://kolkata.craigslist.org/search/sss?query={}'
+
+BASE_CRAIGSLIST_URL ='https://losangeles.craigslist.org/search/sss?query={}'
 BASE_IMAGE_URL ='https://images.craigslist.org/{}_300x300.jpg'
 def home(request):
     return render(request,'craigslist/base.html')
@@ -31,6 +32,8 @@ def search(request):
     #print("Print URL === ",final_url)     
 
     for post in post_listings:
+
+        
         post_title = post.find(class_= 'result-title').text
         post_url = post.find('a').get('href')
         

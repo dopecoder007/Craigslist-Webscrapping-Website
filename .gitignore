@@ -2,3 +2,4 @@
 /.vscode
 /craigslist_env
 db.sqlite3
+myapp/__pycache__/
