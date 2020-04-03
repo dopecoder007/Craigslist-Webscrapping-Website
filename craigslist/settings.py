@@ -27,12 +27,8 @@ SECRET_KEY = 'fw)v*^)p4(vi@$2qvu*-r85($r0a*-pt6^-xc3(y)o&ao5skgh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-<<<<<<< HEAD
-ALLOWED_HOSTS = ['craigslist-webscrapper.herokuapp.com','127.0.0.1:8000']
-=======
 ALLOWED_HOSTS = ['craigslist-webscrapper.herokuapp.com','127.0.0.1']
 
->>>>>>> Trial_Error
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Application definition
 
